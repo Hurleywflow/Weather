@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "commonjs",
+    "paths": {
+      "@/weather/*": ["./weather/*"] // change this to file directory in your project or add more files paths
+      // "@/javascript_fundamentals/*": [
+      //   "./javascript_fundamentals/*"
+      // ] // change this to file directory in your project or add more files paths
+    }
+  },
+  "outDir": "./",
+  "rootDir": "./",
+  "include": ["./scripts/*.js"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "build",
+    ".vscode",
+    ".nuxt",
+    "coverage",
+    "jspm_packages",
+    "tmp",
+    "temp",
+    "bower_components",
+    ".npm",
+    ".yarn"
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
+}
