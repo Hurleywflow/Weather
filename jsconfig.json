@@ -5,7 +5,7 @@
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "target": "es6",
-    "module": "commonjs",
+    "module": "es6",
     "paths": {
       "@/weather/*": ["./weather/*"] // change this to file directory in your project or add more files paths
       // "@/javascript_fundamentals/*": [

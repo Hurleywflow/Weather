@@ -1,4 +1,6 @@
-const key = '	Mtu2CuG0qcGeSYG0MGyOnV1NgqgxPk1A';
+/* Importing the node-fetch module. */
+const fetch = require('node-fetch');
+const key = 'Mtu2CuG0qcGeSYG0MGyOnV1NgqgxPk1A';
 
 // get weather information
 const getWeather = async (id) => {
@@ -10,7 +12,6 @@ const getWeather = async (id) => {
 
   return data[0];
 };
-
 // get city information
 const getCity = async (city) => {
   const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
